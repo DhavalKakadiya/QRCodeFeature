@@ -8,25 +8,30 @@ import {
 import QRCodeScanner from 'react-native-qrcode-scanner';
 import { QRreader } from 'react-native-qr-scanner';
 import ImagePicker from 'react-native-image-picker';
-import bip39 from 'react-native-bip39'
+// import bip39 from 'react-native-bip39'
+import PBKDF2 from 'react-native-pbkdf2'
 
 export default class ScanScreen extends Component {
-    static generateMnemonic = async () => {
-        try {
-          return await bip39.generateMnemonic(256);
-        } catch(e) {
-          return false;
-        }
-      }
+    // static generateMnemonic = async () => {
+    //     try {
+    //       return await bip39.generateMnemonic(256);
+    //     } catch(e) {
+    //       return false;
+    //     }
+    //   }
       
     componentWillMount() {
         console.disableYellowBox = true;
-        console.log(ScanScreen.generateMnemonic);
+        PBKDF2.derivationKey('P4S5W0RD', '032145', 10000)
+        .then((derivationKey) => console.log('derivationKey : ' + derivationKey))
+        .catch((err) => console.log(err))
 
-        if(bip39.validateMnemonic(myMnemonic)) {
-            const mnemonic = bip39.entropyToMnemonic('133755ff');
-            bip39.mnemonicToEntropy(mnemonic);
-        }
+        // console.log(ScanScreen.generateMnemonic);
+
+        // if(bip39.validateMnemonic(myMnemonic)) {
+        //     const mnemonic = bip39.entropyToMnemonic('133755ff');
+        //     bip39.mnemonicToEntropy(mnemonic);
+        // }
       }
     
     onSuccess = (data) => {

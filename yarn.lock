@@ -5164,6 +5164,10 @@ react-native-image-picker@^0.28.0:
   resolved "https://registry.yarnpkg.com/react-native-image-picker/-/react-native-image-picker-0.28.0.tgz#e3f26df170ea932e9c0404624fbced2f59a300e3"
   integrity sha512-lQfdOyC1mQ/pvfEaUGdoodO1A1clg9kf6YC1WdbWhA6XK+joBd9GQYf8SaCf6/7vM25U4ib+6ux4yvnrS1pOqQ==
 
+"react-native-pbkdf2@https://github.com/quan-to/react-native-pbkdf2":
+  version "0.1.1"
+  resolved "https://github.com/quan-to/react-native-pbkdf2#56f8c5879efcac38f2ade16cba027540dc1e1bd8"
+
 react-native-permissions@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/react-native-permissions/-/react-native-permissions-1.1.1.tgz#4876004681ff8556454613d85249b01baff9b35b"

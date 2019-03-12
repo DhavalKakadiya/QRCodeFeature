@@ -22,6 +22,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		1B389D24F13A470C9C82B72A /* libQRCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2D245CC6B04D7BBDAF4A0A /* libQRCode.a */; };
+		312FD5C4CD5E497795167B0A /* libRCTPBKDF2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E1FC8E87C04B81B8E0C273 /* libRCTPBKDF2.a */; };
 		453496A8D1BF45819F2FB409 /* libRNCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B806447D1D87426F99CDC900 /* libRNCamera.a */; };
 		7C1226CB94804D9DA29A78E4 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD9C69CF33B4B7780E62809 /* libRNGestureHandler.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
@@ -319,6 +320,13 @@
 			remoteGlobalIDString = 014A3B5C1C6CF33500B6D375;
 			remoteInfo = RNImagePicker;
 		};
+		BC3A26192237FA6E005D2B02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79F4A9A10C084E769207A021 /* RNPBKDF2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 32D980DD1BE9F11C00FA27E5;
+			remoteInfo = RCTPBKDF2;
+		};
 		BCA16F06223770B40076A810 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DA5AFF5C4F6A4A99BCBF06A2 /* RNGestureHandler.xcodeproj */;
@@ -354,6 +362,7 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = demoApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = demoApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = demoApp/main.m; sourceTree = "<group>"; };
+		13E1FC8E87C04B81B8E0C273 /* libRCTPBKDF2.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTPBKDF2.a; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		2B9AA868277748E5863EBE23 /* libReactNativePermissions.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libReactNativePermissions.a; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -361,6 +370,7 @@
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		6C8A69AF5AE44A6EBD2DC75C /* QrCode.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = QrCode.xcodeproj; path = "../node_modules/react-native-qr-scanner/ios/QrCode.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		79F4A9A10C084E769207A021 /* RNPBKDF2.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNPBKDF2.xcodeproj; path = "../node_modules/react-native-pbkdf2/ios/RNPBKDF2.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		8AB319167A7C4BF1A365F7AC /* libRNGestureHandler-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNGestureHandler-tvOS.a"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
@@ -397,6 +407,7 @@
 				7C1226CB94804D9DA29A78E4 /* libRNGestureHandler.a in Frameworks */,
 				1B389D24F13A470C9C82B72A /* libQRCode.a in Frameworks */,
 				CDC0828D8A8147D4BF275DDD /* libRNImagePicker.a in Frameworks */,
+				312FD5C4CD5E497795167B0A /* libRCTPBKDF2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +549,7 @@
 				8AB319167A7C4BF1A365F7AC /* libRNGestureHandler-tvOS.a */,
 				0E2D245CC6B04D7BBDAF4A0A /* libQRCode.a */,
 				F83562FC4595466885D3F7CD /* libRNImagePicker.a */,
+				13E1FC8E87C04B81B8E0C273 /* libRCTPBKDF2.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -596,6 +608,7 @@
 				DA5AFF5C4F6A4A99BCBF06A2 /* RNGestureHandler.xcodeproj */,
 				6C8A69AF5AE44A6EBD2DC75C /* QrCode.xcodeproj */,
 				E8829FEDF44B4C5980A0630C /* RNImagePicker.xcodeproj */,
+				79F4A9A10C084E769207A021 /* RNPBKDF2.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -657,6 +670,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		BC3A26162237FA6E005D2B02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC3A261A2237FA6E005D2B02 /* libRCTPBKDF2.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		BCA16F02223770B40076A810 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -697,7 +718,6 @@
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = EWMQJQK3W5;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -781,6 +801,10 @@
 				{
 					ProductGroup = BC15C4D1223775A100058B03 /* Products */;
 					ProjectRef = E8829FEDF44B4C5980A0630C /* RNImagePicker.xcodeproj */;
+				},
+				{
+					ProductGroup = BC3A26162237FA6E005D2B02 /* Products */;
+					ProjectRef = 79F4A9A10C084E769207A021 /* RNPBKDF2.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -1078,6 +1102,13 @@
 			remoteRef = BC15C4D4223775A100058B03 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		BC3A261A2237FA6E005D2B02 /* libRCTPBKDF2.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTPBKDF2.a;
+			remoteRef = BC3A26192237FA6E005D2B02 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		BCA16F07223770B40076A810 /* libRNGestureHandler.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1165,11 +1196,13 @@
 					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-qr-scanner/ios/QrCode",
 					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-pbkdf2/ios/RCTPBKDF2/**",
 				);
 				INFOPLIST_FILE = demoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/demoApp\"",
 					"\"$(SRCROOT)/demoApp\"",
 					"\"$(SRCROOT)/demoApp\"",
 				);
@@ -1200,11 +1233,13 @@
 					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-qr-scanner/ios/QrCode",
 					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-pbkdf2/ios/RCTPBKDF2/**",
 				);
 				INFOPLIST_FILE = demoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/demoApp\"",
 					"\"$(SRCROOT)/demoApp\"",
 					"\"$(SRCROOT)/demoApp\"",
 				);

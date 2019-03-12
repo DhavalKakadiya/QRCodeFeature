@@ -3,6 +3,7 @@ package com.demoapp;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import rnpbkdf2.PBKDF2Package;
 import com.imagepicker.ImagePickerPackage;
 import com.lewin.qrcode.QRScanReaderPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
@@ -27,6 +28,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new PBKDF2Package(),
             new ImagePickerPackage(),
             new QRScanReaderPackage(),
             new RNGestureHandlerPackage(),
